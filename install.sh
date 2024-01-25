@@ -1,1 +1,1 @@
-cd /etc/tuxbox/config && rm -rf SoftCam.Key && wget https://raw.githubusercontent.com/youcam-sat/softcam-update/main/SoftCam.Key && rm -rf /var/keys/SoftCam.Key && ln -s /etc/tuxbox/config/SoftCam.Key /var/keys/
+rm -rf /etc/tuxbox/config/SoftCam.Key && cd /etc/tuxbox/config2 && rm -rf SoftCam.Key && wget https://raw.githubusercontent.com/youcam-sat/softcam-update/main/SoftCam.Key && rm -rf /var/keys/SoftCam.Key && ln -s /etc/tuxbox/config2/SoftCam.Key /var/keys/ && ln -s /etc/tuxbox/config2/SoftCam.Key /etc/tuxbox/config/
